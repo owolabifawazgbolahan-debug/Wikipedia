@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background:#101418;
+    color: #fff;
+    text-align: left;
+    }
+
+    .wikipedia{
+    font-family: "Linux Libertine""Hoefler Text"Georgia"Times New Roman";
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    }
+
+    .tfe{
+    font-size: 15px;
+    margin-bottom: auto;
+    display: block;
+    }
+
+    .wiki-container{
+    width: 900px;
+    height:0px;
+    margin:auto;
+    position:relative;
+}
+
+.globe{
+    width: 280px;
+    position:absolute;
+    top:180px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.lang{
+    position:absolute;
+    text-align:center;
+}
+
+
+.english{
+    top:0px;
+    left:200px;
+}
+
+.english h3{
+    color: #88A3DC;
+}
+
+.deutsch{
+    top:90px;
+    left:140px;
+}
+
+.deutsch h3{
+    color: #88A3DC;
+}
+.francais{
+    top:320px;
+    left:120px;
+}
+
+.chinese{
+    top:430px;
+    left:180px;
+}
+
+.polski{
+    top:540px;
+    left:250px;
+}
+
+.francais h3, .chinese h3, .polski h3, .japanese h3, .russian h3, .spanish h3, .italian h3, .portuguese h3{
+    color: #88A3DC;
+}
+
+.japanese{
+    top:120px;
+    right:220px;
+}
+
+.russian{
+    top:220px;
+    right:140px;
+}
+
+.spanish{
+    top:320px;
+    right:120px;
+}
+
+.italian{
+    top:430px;
+    right:180px;
+}
+
+.portuguese{
+    top:540px;
+    right:250px;
+}
+
+.search-wrapper{
+    display:flex;
+    justify-content:center;
+    margin:40px 0;
+}
+
+.search-container{
+    width:600px;
+    display:flex;
+    border:1px solid #58606b;
+    overflow:hidden;
+}
+
+.search-container input{
+    flex:1;
+    padding:16px;
+    background:#040b14;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    outline:none;
+}
+
+.search-container select{
+    border:none;
+    background:#040b14;
+    color:#fff;
+    padding:0 15px;
+    outline:none;
+}
+
+.search-btn{
+    width:70px;
+    border:none;
+    background:#3366cc;
+    color:#fff;
+    font-size:24px;
+    cursor:pointer;
+}
+
+/* LANGUAGE BUTTON */
+.language-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin:40px 0;
+}
+
+.line{
+    width:80px;
+    height:1px;
+    background:#2b3645;
+}
+
+.language-btn{
+    padding:12px 25px;
+    border:1px solid #58606b;
+    background:#040b14;
+    color:#7ea5ff;
+    font-size:18px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer{
+    padding:40px 80px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #2b3645;
+    margin-bottom:50px;
+}
+
+.projects{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.left-section{
+    width:30%;
+}
+
+.foundation{
+    display:flex;
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.foundation-icon{
+    font-size:45px;
+}
+
+.foundation p{
+    color:#d1d5db;
+    line-height:1.6;
+}
+
+.foundation a{
+    color:#7ea5ff;
+    text-decoration:none;
+}
+
+.download-box{
+    background:#1d1f23;
+    padding:20px;
+}
+
+.download-header{
+    display:flex;
+    gap:15px;
+}
+
+.app-icon{
+    width: 100px;
+    height:50px;
+    background:#fff;
+    color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    font-size:28px;
+}
+
+.download-box h3{
+    color:#7ea5ff;
+    margin-bottom:15px;
+}
+
+.download-box p{
+    color:#d1d5db;
+    line-height:1.8;
+}
+
+.stores{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.store{
+    border:1px solid #555;
+    padding:10px 15px;
+    border-radius:6px;
+}
+
+.right-section{
+    flex:1;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:50px;
+}
+
+.image-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+
+.image-grid img{
+    width:10%;
+    height:auto;
+    display:block;
+}
+
+.item{
+    display:flex;
+    gap:15px;
+}
+
+.icon{
+    font-size:38px;
+}
+
+.item h4{
+    color:#7ea5ff;
+    margin-bottom:5px;
+}
+
+.item p{
+    color:#d1d5db;
+}
+
+.bottom{
+    text-align: center;
+    margin-top:40px;
+    color:#d1d5db;
+}
+
+.bottom a{
+    color:#7ea5ff;
+    text-decoration:none;
+    margin:0 8px;
+}
