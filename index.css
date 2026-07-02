@@ -17,7 +17,7 @@ body {
     font-size: 32px;
     color: #ffffff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 20px; 
     }
 
     .tfe{
@@ -34,9 +34,9 @@ body {
 }
 
 .globe{
-    width: 280px;
+    width: 240px;
     position:absolute;
-    top:180px;
+    top:40px;
     left:50%;
     transform:translateX(-50%);
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .deutsch{
-    top:90px;
+    top:70px;
     left:140px;
 }
 
@@ -65,17 +65,17 @@ body {
     color: #88A3DC;
 }
 .francais{
-    top:320px;
+    top:150px;
     left:120px;
 }
 
 .chinese{
-    top:430px;
-    left:180px;
+    top:240px;
+    left:170px;
 }
 
 .polski{
-    top:540px;
+    top:300px;
     left:250px;
 }
 
@@ -84,34 +84,34 @@ body {
 }
 
 .japanese{
-    top:120px;
+    top:0px;
     right:220px;
 }
 
 .russian{
-    top:220px;
+    top:70px;
     right:140px;
 }
 
 .spanish{
-    top:320px;
+    top:150px;
     right:120px;
 }
 
 .italian{
-    top:430px;
+    top:240px;
     right:180px;
 }
 
 .portuguese{
-    top:540px;
+    top:300px;
     right:250px;
 }
 
 .search-wrapper{
     display:flex;
     justify-content:center;
-    margin:40px 0;
+    margin:0px 0;
 }
 
 .search-container{
